@@ -1,0 +1,26 @@
+{
+  "name": "tasks-app",
+  "version": "1.0.0",
+  "description": "App for manage your taskes of the day",
+  "main": "app.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& nodemon ./app.js",
+    "prod": "set NODE_ENV=production&& nodemon ./app.js"
+  },
+  "keywords": [
+    "task",
+    "nodejs",
+    "back-end"
+  ],
+  "author": "jpmr18",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
