@@ -34,7 +34,7 @@ app.use("/api", routes);
 Database.connect();
 
 //Models
-// require("./src/Models/mdlTask");
+require("./src/Models/mdlTask");
 
 //Init server
 app.listen(config.PORT, config.HOST, () => {

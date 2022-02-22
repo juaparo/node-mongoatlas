@@ -9,18 +9,11 @@ const router = express.Router();
  * Controllers
  */
 const crtlTask = require("../Controllers/ctrlTask");
-const ctrlUser = require("../Controllers/ctrlUser");
 
 /**
  * Task routes
  */
 router.post("/task", crtlTask.createTask);
-
-/**
- * User routes
- */
-
-router.post("/users", ctrlUser.createUser);
 
 /**
  * Redirect if page was not found
